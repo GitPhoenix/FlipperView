@@ -42,5 +42,5 @@ publish {
     artifactId = 'FlipperView'//项目名称
     publishVersion = '1.2.0'//版本号
     desc = '垂直轮播图、公告、消息'//描述，不重要
-    website = 'https://github.com/GitPhoenix'//网站
+    website = 'https://github.com/GitPhoenix/FlipperView'//网站
 }

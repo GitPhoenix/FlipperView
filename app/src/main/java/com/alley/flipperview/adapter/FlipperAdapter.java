@@ -28,10 +28,6 @@ public class FlipperAdapter extends BaseFlipperAdapter<String> {
 
     @Override
     public View getView(int position, View convertView, String body) {
-        if (convertView == null) {
-            return null;
-        }
-
         TextView textView = (TextView) convertView.findViewById(R.id.tv_vertical_flipper_content);
         textView.setText(body);
         return convertView;
